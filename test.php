@@ -192,4 +192,4 @@ $filename= "598_invoice_".date('Y-m-d')."_".$randomNum.".pdf";
 $filelocation = "D:\\xampp\\htdocs";//windows
 $fileNL = $filelocation."\\".$filename;//Windows
 
-$pdf->Output($fileNL, 'F');
+$pdf->Output($fileNL, 'F'); //'F':產生檔案 'I':顯示在網頁 
